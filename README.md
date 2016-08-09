@@ -10,7 +10,7 @@ Only jquery is required to use this plugin
 ###How to use
 Have a look at an example below.
 
-####Step 1. Download jquery file and this plugin file and add references in html header as below
+####Step 1. Download replace_anchor_links.min.js file and add reference in html header section as below
 ```
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="js/replace_anchor_links.min.js"></script>
