@@ -1,22 +1,22 @@
 # replace-anchor-links
-This is the simple Jquery plugin that convert all text in url format within a paragraph into html anchor link format. This is very easy to use.
+This is a simple jQuery plugin that converts all text in URL format within a paragraph into HTML anchor link format. It is very easy to use.
 
-###Screenshot
+### Screenshot
 ![alt tag](https://github.com/waiyanhein/replace-anchor-links/blob/master/Screenshot%20(311).png)
 
-###Dependencies
+### Dependencies
 Only jquery is required to use this plugin
 
-###How to use
-Have a look at an example below.
+### How to use
+Have a look at the example below.
 
-####Step 1. Download replace_anchor_links.min.js file and add reference in html header section as below
+#### Step 1. Download replace_anchor_links.min.js file and add reference in html header section as below
 ```
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="js/replace_anchor_links.min.js"></script>
 ```
 
-####Step 2. Copy this html
+#### Step 2. Include this html
 ```
 <h3>First Paragraph</h3>
 <p id="paragraph-1">This is a url or link, www.google.com in a paragraph.</p>
@@ -27,9 +27,9 @@ Have a look at an example below.
 <h3>Fourth Paragraph</h3>
 <p id="paragraph-4">This is a url or link, https://www.google.com,+= in a paragraph. https://www.bing.com</p>
 ```
-####NOTE: html attribute selector class or id must be unique
+#### NOTE: html attribute selector class or id must be unique
 
-####Step 3. include this javascript code in script section
+#### Step 3. include this javascript code in the script section
 ```
 <script type="text/javascript">
 $(function(){
@@ -40,4 +40,4 @@ $(function(){
 })
 </script>
 ```
-####That's it. You are done. All the urls in the paragraph will be converted into html anchor links.
+#### That's it. All the urls in the paragraph will be converted into html anchor links.
